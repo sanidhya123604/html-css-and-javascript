@@ -1,0 +1,20 @@
+console.log("tut3");
+var a = "sanidhya";
+var b = 20;
+b = 30;    // In var we change the value and it is used globally 
+var c = 23.43;
+console.log(a, b, c );
+
+const d = 100;
+ // d = 200   --> const value can not change
+ console.log(d);
+
+ {
+     let e = 10000; // it is used locally
+     console.log(e)
+ }
+
+
+ const arr1 = [10,20,30,40]
+ arr1.push(50);
+ console.log(arr1);
